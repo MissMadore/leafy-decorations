@@ -1,8 +1,16 @@
 html {
   font-family: Lora, serif;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  color: #fff;
 }
 
 .masthead {
+  background-color: #588477;
+  background-image: url("../images/leaf-bg.svg");
+  /* background-repeat: repeat; */
+  border: 3px solid #2d5a4d;
+  background-size: 64px auto;
 
 }
 
