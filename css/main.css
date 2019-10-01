@@ -6,11 +6,9 @@ html {
 .masthead {
   background-color: #588477;
   background-image: url("../images/leaf-bg.svg");
-  /* background-repeat: repeat; */
   border: 3px solid #2d5a4d;
   background-size: 64px auto;
-  background-position: left;
-
+  background-position: left top;
 }
 
 .logo {
@@ -32,26 +30,24 @@ html {
 .nav a:hover {
   background-image: url("../images/leaf-icon.svg");
   background-color: #fff;
-  color: #2d5a4d;
+  color: #145b1d;
   background-position: center;
   background-size: 64px;
   background-repeat: no-repeat;
-
 }
 
 .banner {
-  background-image:linear-gradient(to bottom, rgba(16, 52, 41, 0),rgba(16, 52, 41, .8)), url("../images/banner.jpg");;
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
   background-size: cover;
   background-position: center bottom, center;
-
 }
 
 .banner-content {
   background-image: url("../images/two-leaves.svg");
-  background-size: 8em;
-  background-position: 0.75em 14em;
+  background-size: 100px;
+  background-position: .75rem 180px;
   background-repeat: no-repeat;
-  padding-top: 18.5em;
+  padding-top: 300px;
 }
 
 @media only screen and (min-width: 60em) {
@@ -62,6 +58,10 @@ html {
 
   .nav {
     text-align: right;
+  }
+
+  .banner {
+    background-position: center top, bottom;
   }
 
 }
